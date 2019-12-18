@@ -198,7 +198,7 @@ def zack():
                 c.setFill(keeper[str(int(-turn))])
                 c.setOutline(keeper[str(int(-turn))])
                 c.draw(win)
-                for it in range(iterations):
+                for it in range(int(iterations)):
                     c.move(0,stepsize)
                     time.sleep(timesize)
                 c.undraw()
